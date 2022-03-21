@@ -1,0 +1,75 @@
+---
+layout: page
+permalink: /
+---
+
+<br></br>
+
+click <button id="clear">CLEAR</button> to clear the localstorage for checkboxs
+<br></br>(p.s., since i'm lazy to find the js file, the codes will be added to html file directly)
+
+<script>
+document.getElementById("clear").addEventListener("click", function() {
+  alert("you've clear your checkboxs data"); localStorage.clear();
+});
+</script>
+
+
+<p>i was checking on these items: </p>
+<h2 style="color:purple;"> requirements: </h2> 
+(for me most of them seem finished)
+
+
+
+<br></br>
+<li> 
+ <label>
+  <input type="checkbox" name="scss" />
+  .scss
+ </label>
+</li>
+i've created .scss along with .css, i just don't know how to watch it. 
+but since i attached the .css in _layouts, so the changes in .css are made to changed simultaneously in all pages. 
+<br></br>click <button onclick="window.location.href = 'https://lanyixiao.github.io/WebS19/css/styles.scss';">check</button>
+to check the .scss codes:
+
+
+<br></br>
+<li> 
+ <label>
+   <input type="checkbox" name="data" />
+   data
+ </label>
+</li> 
+(which can be found in data/navigation.yaml)
+<br></br>
+
+<li> 
+ <label>
+   <input type="checkbox" name="loop" />
+   A loop that iterates over the data
+ </label>
+</li> 
+
+ (the loop statement '  for item in site.data.navigation   ' can be found in _includes/navigation.html)
+<br></br>
+
+<li> 
+ <label>
+   <input type="checkbox" name="layout" />
+   1 layout
+ </label>
+</li> 
+(the layout can be found in _layouts/page.html.)
+(i adjusted the css file and added a javascript file)
+
+<br></br>
+
+<li> 
+ <label>
+   <input type="checkbox" name="partial" />
+   1 partial
+ </label>
+</li> 
+no idea what it is...
+
