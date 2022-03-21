@@ -1,0 +1,6 @@
+- name: home  
+  link: /
+- name: work  
+  link: /work/
+- name: copyright 
+  link: /copyright/
